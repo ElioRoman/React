@@ -1,10 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  devServer: {
-    overlay: true,
-    open: true,
-  },
   module: {
     rules: [
       {
