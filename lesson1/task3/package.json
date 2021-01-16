@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "webpack-dev-server --open",
-    "dev": "webpack serve"
+    
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
