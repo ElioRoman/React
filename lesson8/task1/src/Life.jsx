@@ -20,12 +20,12 @@ componentDidUpdate(prevProps, prevState){
 }
 
 componentWillUnmount(){
-  console.log('cleanup before DOM related to component will be removed');
+  console.log('componentWillUnmount() :cleanup before DOM related to component will be removed');
 }
 
 render(){
   console.log('return React element to build DOM');
-  return null
+  return true
 }
 }
 
