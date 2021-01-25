@@ -10,7 +10,7 @@ class User extends Component {
   }
 
   fetchUser = userId => {
-    fetch(`http://api.github.com/users/${userId}`)
+    fetch(`https://api.github.com/users/${userId}`)
       .then(response => response.json())
       .then(data => {
         this.setState({
@@ -21,6 +21,7 @@ class User extends Component {
 
   render() {
     const { user } = this.state;
+    
     if (!user) {
       return null;
     }
