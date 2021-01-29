@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import "./index.scss";
-import App from "./App";
+import ConnectionStatus from './ConnectionStatus'
 
-const rootElement = document.querySelector("#root");
+const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<ConnectionStatus />, rootElement);
